@@ -1,0 +1,52 @@
+  * { color: #454545; }
+	blockquote.tr_bq {
+      width: 90%; text-align: left;
+      background-color: white; box-shadow: 2px 3px 3px silver; border-left: 4px solid gray;
+      background-image: url(&quot;https://1.bp.blogspot.com/-wOT3OXWsZes/WeQYIU8VBoI/AAAAAAAAUt4/SOVt56QLs2wfj8OfK4roI9p5Hhzej79PACLcBGAs/s320/stc_bg.png&quot;);
+      padding: 10px 20px 10px; margin: 5px 0;
+    }
+      blockquote.tr_bq{ border-width: 4px; transition: 0.3s; }
+      blockquote.tr_bq span.ja { font-size: 0.6em; }
+	  blockquote.tr_bq.checked {
+        border-width: 20px; width: 85%;
+      }
+      blockquote.tr_bq.rin { border-color: #f1c40f; }
+          blockquote.tr_bq.hanayo { border-color: #27ae60;     }
+              blockquote.tr_bq.maki { border-color: #e74c3c; }
+                  blockquote.tr_bq.honoka { border-color: #e67e22; }
+                      blockquote.tr_bq.kotori { border-color: #bdc3c7; }
+                          blockquote.tr_bq.umi { border-color: #4169E1; }
+                              blockquote.tr_bq.nico { border-color: #FF69B4; }
+                                  blockquote.tr_bq.eli { border-color: #3498db; }
+                                      blockquote.tr_bq.nozomi { border-color: #9b59b6; }
+      blockquote.tr_bq.chika { border-color: #FDB451; }
+          blockquote.tr_bq.riko { border-color: #FD93A0; }
+              blockquote.tr_bq.kanan { border-color: #00DDB0; }
+                  blockquote.tr_bq.dia { border-color: #FF4156; }
+                      blockquote.tr_bq.you { border-color: #72D7FF; }
+                          blockquote.tr_bq.yoshiko { border-color: #D4D4D4; }
+                              blockquote.tr_bq.hanamaru { border-color: #FEE481; }
+                                  blockquote.tr_bq.mari { border-color: #C353FF; }
+                                      blockquote.tr_bq.ruby { border-color: #FF95FF; }
+      blockquote.tr_bq:hover { border-width: 20px; width: 85%; transition: 0.3s; cursor: pointer;}
+  div.thumbnail-title { margin: 0px; }
+  div.thumbnail-title span {
+      text-align: right;
+      padding: 0 10px; position: relative;
+      display: block;
+  }
+  h2.sectionTitle {
+      padding: 5px; margin: 15px 0px;
+      border-bottom: 3px solid pink;
+  }
+  h2.sectionTitle span { padding-left: 20px; vartical-align: bottom; color: #333;}
+div.data { margin: 10px 0; }
+div.data p{ border-bottom: 1px solid rgba(100, 100, 100, 0.1); margin: 5px 10px; padding: 0 40px; }
+div.data p::before { font-family: FontAwesome; content: &quot;\f00c&quot;; position: relative; left: -1em; color: silver; }
+div.data p:hover { cursor: pointer; }
+@media screen and (max-width: 420px) {
+    blockquote.tr_bq { font-size: 18px; }
+    h2.sectionTitle { font-size: 14px; padding: 0px; text-align: center; }
+	h2.sectionTitle span { font-size: 18px; padding: 0px; color: #333; }
+	div.data p{ margin: 5px; padding: 0 10px; }
+}
