@@ -36,7 +36,7 @@
       display: block;
   }
   h2.sectionTitle {
-      padding: 5px; margin: 15px 0px;
+      padding: 15px 5px; margin: 15px 0px;
       border-bottom: 3px solid pink;
   }
   h2.sectionTitle span { padding-left: 20px; vartical-align: bottom; color: #333;}
