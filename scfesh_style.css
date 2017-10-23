@@ -42,7 +42,7 @@
   h2.sectionTitle span { padding-left: 20px; vartical-align: bottom; color: #333;}
 div.data { margin: 10px 0; }
 div.data p{ border-bottom: 1px solid rgba(100, 100, 100, 0.1); margin: 5px 10px; padding: 0 40px; }
-div.data p::before { font-family: FontAwesome; content: &quot;\f00c&quot;; position: relative; left: -1em; color: silver; }
+div.data p::before { font-family: FontAwesome; content: &f00c;; position: relative; left: -1em; color: silver; }
 div.data p:hover { cursor: pointer; }
 @media screen and (max-width: 420px) {
     blockquote.tr_bq { font-size: 18px; }
