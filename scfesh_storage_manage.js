@@ -5,6 +5,20 @@
 
 // ローカルストレージ使えるならGO！
 if(window.localStorage){
-    var fraseStorage = window.localStorage;
-    console.log("Frases: " + fraseStorage.length);
+    var phraseStorage = window.localStorage;
+    var phraseAmount = phraseStorage.length;
+
+    var value = [phraseAmount, 'TestData'];
+    JSON.stringify(value);
+    console.log(phraseStorage);
+
+    function setphrase() {
+        phraseStorage.setItem(phraseAmount, value);
+    }
+    function getphrase() {
+        phraseStorage.getItem(phraseAmount);
+    }
+    function remphrase() {
+
+    }
 }
