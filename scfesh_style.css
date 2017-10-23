@@ -2,7 +2,7 @@
 	blockquote.tr_bq {
       width: 90%; text-align: left;
       background-color: white; box-shadow: 2px 3px 3px silver; border-left: 4px solid gray;
-      background-image: url(&quot;https://1.bp.blogspot.com/-wOT3OXWsZes/WeQYIU8VBoI/AAAAAAAAUt4/SOVt56QLs2wfj8OfK4roI9p5Hhzej79PACLcBGAs/s320/stc_bg.png&quot;);
+      background-image: url("https://1.bp.blogspot.com/-wOT3OXWsZes/WeQYIU8VBoI/AAAAAAAAUt4/SOVt56QLs2wfj8OfK4roI9p5Hhzej79PACLcBGAs/s320/stc_bg.png");
       padding: 10px 20px 10px; margin: 5px 0;
     }
       blockquote.tr_bq{ border-width: 4px; transition: 0.3s; }
